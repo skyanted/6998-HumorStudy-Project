@@ -1,5 +1,6 @@
 import type { NextConfig } from "next";
 
+
 // Keep the controlled preview's generated files separate from normal builds.
 const nextConfig: NextConfig = process.env.FUNNYSTUDY_SETTINGS_PREVIEW === "1"
   ? {
